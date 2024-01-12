@@ -22,7 +22,7 @@ To run and experiment with Clox, follow these steps:
 3. Build the Clox interpreter:
 
    ```bash
-   gcc main.c memory.c chunk.c debug.c value.c vm.c -o main
+   gcc main.c  source/memory.c  source/chunk.c  source/debug.c  source/value.c  source/vm.c -o main
    ```
 
 4. Run the Clox interpreter with a script:
