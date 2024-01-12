@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "common.h"
-#include "vm.h"
-#include "debug.h"
+#include "../headers/common.h"
+#include "../headers/vm.h"
+#include "../headers/debug.h"
 
 VM vm;
 
